@@ -1,5 +1,6 @@
 #Regner ut skolepoeng (det man søker universitet med i ordf) ved alle fordelinger av seksere og femmere
-#Totalt 16 fag, 24 karakterer (regner med ingen eksamen i vg1)
+#Dette programmet regner med 16 fag, og 24 standpunktkarakterer (med eksamener, gitt ingen eksamen i vg1).
+#Merk: karaktertotalen her er gitt at man tar fremmedspråk som privatist, som da gir to karakterer (skriftlig + muntlig)
 
 seksere = 24
 femmere = 0
