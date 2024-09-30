@@ -7,9 +7,9 @@ femmere = 0
 
 snitt = {}
 
-for i in range(24):
+for i in range(25):
     poeng = ((seksere*6 + femmere*5)/24)*10 #Regner ut karakterpoeng
-    snitt[femmere +1] = round(poeng, 2) +4 #Regner ut skolepoeng (gitt maks tilleggspoeng, ingen kjønnspoeng inkludert), og legger skolepoeng til i snitt
+    snitt[femmere] = round(poeng, 2) +4 #Regner ut skolepoeng (gitt maks tilleggspoeng, ingen kjønnspoeng inkludert), og legger skolepoeng til i snitt
     seksere -= 1
     femmere += 1
 
