@@ -1,14 +1,14 @@
 #Regner ut skolepoeng (det man søker universitet med i ordf) ved alle fordelinger av seksere og femmere
-#Dette programmet regner med 16 fag, og 24 standpunktkarakterer (med eksamener, gitt ingen eksamen i vg1).
+#Dette programmet regner med 16 fag, og 22 standpunktkarakterer (med eksamener, gitt ingen eksamen i vg1).
 #Merk: karaktertotalen her er gitt at man tar fremmedspråk som privatist, som da gir to karakterer (skriftlig + muntlig)
 
-seksere = 24
+seksere = 22
 femmere = 0
 
 snitt = {}
 
-for i in range(25):
-    poeng = ((seksere*6 + femmere*5)/24)*10 #Regner ut karakterpoeng
+for i in range(23):
+    poeng = ((seksere*6 + femmere*5)/22)*10 #Regner ut karakterpoeng
     snitt[femmere] = round(poeng, 2) +4 #Regner ut skolepoeng (gitt maks tilleggspoeng, ingen kjønnspoeng inkludert), og legger skolepoeng til i snitt
     seksere -= 1
     femmere += 1
