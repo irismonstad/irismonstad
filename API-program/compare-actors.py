@@ -26,6 +26,8 @@ response2 = requests.get(url2, headers=headers)
 data1 = response1.json()
 data2 = response2.json()
 
+print(data1)
+"""
 #Dictionaries for storing the actors and their info
 double = {}
 doublesignificant = {}
@@ -47,3 +49,4 @@ for people in double:
 
 #Prints the dictionary of prominent actors on both shows
 print(double)
+"""
