@@ -4,9 +4,13 @@ import requests
 import json
 load_dotenv()
 
-#Urls to tell TMDB what data you want
-url1 = "https://api.themoviedb.org/3/tv/4057/aggregate_credits?language=en-US"
-url2 = "https://api.themoviedb.org/3/tv/1416/aggregate_credits?language=en-US"
+#Id numbers for tv show credits to compare - gotten from TMDB
+id1 = 4057
+id2 = 1416
+
+#Urls to tell TMDB what data to give you. Here: Aggregate credits (list of everyone credited on the shows)
+url1 = f"https://api.themoviedb.org/3/tv/{id1}aggregate_credits?language=en-US"
+url2 = f"https://api.themoviedb.org/3/tv/{id2}/aggregate_credits?language=en-US"
 
 #Tells TMDB the data type the response should be, and tells them that you are an authorised user
 headers = {
