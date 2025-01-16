@@ -33,7 +33,7 @@ data2 = response2.json()
 double = {}
 doublesignificant = {}
 
-#Checks if the actors in show 1 are in show 2, and adds them to a dictionairy with their name, episode counts, and roles
+#Checks if the actors in show 1 are in show 2, and adds them to a dictionary with their name, episode counts, and roles
 for people1 in data1["cast"]:
     for people2 in data2["cast"]:
         if people2["name"] == people1["name"] and people1["known_for_department"] == "Acting":
