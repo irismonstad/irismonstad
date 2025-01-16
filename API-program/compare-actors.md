@@ -25,5 +25,5 @@ The dictionary of returning actors *(featured in multiple episodes)* is printed.
 
 # Run the program:
 1. To run the program yourself you will need to install the python libraries imported at the start of the program. 
-2. You will also need an API-key. This is as simple as creating an account on [TMDB](https://www.themoviedb.org) and requesting one. Put this key in a .env file with the format `FILM_API_TOKEN = 'xxxxxx'`.
+2. You will also need an API-key. This is as simple as creating an account on [TMDB](https://www.themoviedb.org) and [requesting one](https://developer.themoviedb.org/docs/faq#how-do-i-apply-for-an-api-key). Put this key in a .env file with the format `FILM_API_TOKEN = 'xxxxxx'`.
 3. To remove the multiple episode requirement, simply change the last print statement to `print(data)`
