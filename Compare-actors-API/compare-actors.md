@@ -26,4 +26,8 @@ The dictionary of returning actors *(featured in multiple episodes)* is printed.
 # Run the program:
 1. To run the program yourself you will need to install the python libraries imported at the start of the program. 
 2. You will also need an API-key. This is as simple as creating an account on [TMDB](https://www.themoviedb.org) and [requesting one](https://developer.themoviedb.org/docs/faq#how-do-i-apply-for-an-api-key). Put this key in a .env file with the format `FILM_API_TOKEN = 'xxxxxx'`.
-3. To remove the multiple episode requirement, simply change the last print statement to `print(data)`
+3. Set `id1` and `id2` to the IDs of the shows you'd like to compare. You can find these in the url of a show's page on [TMDB](https://www.themoviedb.org)*.
+4. To remove the multiple episode requirement, simply change the last print statement to `print(data)`
+
+
+*www.themoviedb.org/tv/**94605**-arcane (94605 is the ID)
