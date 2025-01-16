@@ -48,5 +48,5 @@ for people in double:
     if double[people]["episode count"][0] > 1 and double[people]["episode count"][1] > 1:
         doublesignificant[people] = double[people]
 
-#Prints the dictionary of prominent actors on both shows
+#Prints the dictionary of returning actors on both shows
 print(doublesignificant)
