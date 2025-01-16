@@ -16,7 +16,7 @@ The dictionary of returning actors *(featured in multiple episodes)* is printed.
 ## Further development
 **Some areas that could be developed further going forward:**
 
-- Reformatting the output to be more easily readable
+- Reformatting the output to be easier to read
   - E.g. newline between actors
   - Sorting actors based on episode count
   - **Or:** creating a UI for the user to interact with the results (could have an option to turn on/off requirement of multiple episode features)
